@@ -1,0 +1,491 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background: #f0f1f3;
+}
+
+.fondo-ariz{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('./assets/17\ 1\ 1.png');
+  height: 715px;
+  background-size: cover;
+  text-align: center;
+}
+
+.logo-ariz{
+width: 120px;
+margin-right: 30px;
+}
+
+.title_ariztegui{
+  padding-top: 313px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.btn-contrataciones{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+
+.img-ariz{
+  width: 300px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.galeria{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-img{
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.btn-img-ariz{
+  width: 100%;
+  margin: auto;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.title-galeria{
+  font-size: 50px;
+  font-weight: bold;
+  color: #333333;
+  border-bottom: 2px solid #333333;
+  padding: 15px 0px;
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.video-ariz{
+  margin: 20px;
+}
+
+.container-video{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  margin: 30px;
+  background-color: #333333;
+  color: rgb(189 185 185);
+}
+
+.parrafos{
+  text-align: center;
+}
+
+.form-container{
+  border: 1px solid rgb(211, 211, 211);
+  padding: 20px;
+  margin: 40px 0;
+  background-color: #fff;
+}
+
+.form-ariz{
+  margin: 20px 0;
+}
+
+.form-input{
+  background-color: #f0f1f3;
+}
+
+.btn-contacto{
+  width: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.redes-icon a , .footer-icon a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.label-contacto{
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.title-contacto{
+  font-weight: bold;
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes-icon{
+  margin: 0 20px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.6ms ease;
+}
+
+.redes-icon a svg:hover{
+  transform: scale(1.5);
+}
+
+.li-edit{
+  margin: 20px 0;
+  border-bottom: 1px solid #fff;
+  padding: 15px 0;
+}
+
+.ul-edit{
+  list-style: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.lista{
+  background-color: #6c757d;
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.icon-fa-fa{
+  margin-right: 10px;
+}
+
+.footer{
+  background-color: #333333;
+  text-align: center;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(189 185 185);
+}
+
+.footer p{
+  margin: 0;
+}
+
+.footer-logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon{
+  font-size: 25px;
+  margin: 0 30px;
+  cursor: pointer;
+  transition: 0.6ms ease;
+}
+
+.footer-icon a svg:hover{
+  transform: scale(1.5);
+}
+
+
+
+@media (max-width: 413.98px) { 
+.fondo-ariz {
+  height: 240px;
+}
+.logo-ariz {
+  width: 90px;
+  margin-right: 30px;
+}
+.navbar {
+  height: 60px;
+}
+
+.title_ariztegui {
+    padding-top: 115px;
+    font-size: 20px;
+}
+
+.img-ariz {
+  width: 200px;
+  height: 200px;
+}
+
+.title-galeria {
+  font-size: 29px;
+}
+.btn-contrataciones {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.footer {
+  flex-direction: column;
+}
+
+.container-video {
+  flex-direction: column;
+
+}
+
+.video-ariz {
+  margin: 20px;
+  width: 283px !important;
+  height: 200px !important;
+}
+
+.parrafos h2{
+  font-size: 18px;
+}
+
+.parrafos p{
+  font-size: 12px;
+}
+
+
+}
+
+@media (min-width: 414px) and (max-width: 575.98px) {
+  
+  .fondo-ariz {
+    height: 240px;
+  }
+  .logo-ariz {
+    width: 90px;
+    margin-right: 30px;
+  }
+  .navbar {
+    height: 60px;
+  }
+  
+  .title_ariztegui {
+    padding-top: 115px;
+    font-size: 20px;
+  }
+
+  .title-galeria {
+    font-size: 29px;
+  }
+
+.img-ariz {
+  width: 200px;
+  height: 200px;
+}
+
+  .btn-contrataciones {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .container-video {
+    flex-direction: column;
+  
+  }
+  
+  .video-ariz {
+    width: 310px !important;
+    height: 232px !important;
+  }
+  
+  .parrafos h2{
+    font-size: 18px;
+  }
+  
+  .parrafos p{
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+  .fondo-ariz {
+    height: 300px;
+  }
+  .logo-ariz {
+    width: 90px;
+    margin-right: 30px;
+  }
+  .navbar {
+    height: 60px;
+  }
+  
+  .title_ariztegui {
+    padding-top: 143px;
+    font-size: 20px;
+  }
+
+  .title-galeria {
+    font-size: 29px;
+  }
+
+.img-ariz {
+  width: 200px;
+  height: 200px;
+}
+
+  .btn-contrataciones {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .ul-edit{
+    padding: 0;
+  }
+
+  .container-video {
+    flex-direction: column;
+  
+  }
+  
+  .video-ariz {
+    width: 443px !important;
+    height: 320px !important;
+  }
+  
+  .parrafos h2{
+    font-size: 18px;
+  }
+  
+  .parrafos p{
+    font-size: 12px;
+  }
+
+}
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+  .fondo-ariz {
+    height: 380px;
+  }
+  .logo-ariz {
+    width: 90px;
+    margin-right: 30px;
+  }
+  .navbar {
+    height: 60px;
+  }
+  
+  .title_ariztegui {
+    padding-top: 187px;
+    font-size: 30px;
+  }
+
+  .title-galeria {
+    font-size: 29px;
+  }
+
+.img-ariz {
+  width: 200px;
+  height: 200px;
+}
+
+  .btn-contrataciones {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .ul-edit{
+    padding: 0;
+  }
+
+  .container-video {
+    flex-direction: column;
+  
+  }
+  
+  .video-ariz {
+    width: 526px !important;
+    height: 402px !important;
+  }
+  
+  .parrafos h2{
+    font-size: 22px;
+  }
+  
+  .parrafos p{
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  .fondo-ariz {
+    height: 500px;
+  }
+  .logo-ariz {
+    width: 90px;
+    margin-right: 30px;
+  }
+  .navbar {
+    height: 60px;
+  }
+  
+  .title_ariztegui {
+    padding-top: 250px;
+    font-size: 42px;
+  }
+
+  .title-galeria {
+    font-size: 40px;
+  }
+
+.img-ariz {
+  width: 300px;
+    height: 300px;
+}
+
+  .btn-contrataciones {
+    font-size: 22px;
+    margin-top: 14px;
+  }
+
+  .ul-edit{
+    padding: 0;
+  }
+
+}
+
+@media (min-width: 1200px) { 
+
+  .fondo-ariz {
+    height: 615px;
+  }
+  .logo-ariz {
+    width: 90px;
+    margin-right: 30px;
+  }
+  .navbar {
+    height: 60px;
+  }
+
+  .btn-contrataciones {
+    margin-top: 28px;
+  }
+
+  .ul-edit{
+    padding: 0;
+  }
+
+}
